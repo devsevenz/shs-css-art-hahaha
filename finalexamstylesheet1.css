@@ -1,0 +1,341 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:blueviolet;
+}
+.container{
+    top: -4px;
+    left: -3px;
+    position: absolute;
+}
+.base{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: black;
+    width: 210px;
+    height: 210px;
+    border: 5px solid gray;
+    border-radius: 50%;
+    padding: 1px;
+    
+
+}
+.large-tomoe{
+   position: absolute;
+   top: 10px;
+
+}
+
+.ltc{
+    position: absolute;
+    border-radius: 49% 51% 47% 53% / 100% 100% 0% 0% ;
+    width: 40px;
+    height: 47px;
+    top: 112px;
+    left: 40px;
+    background-color: black;
+    z-index: 401;
+}
+.ltc2{
+    position: absolute;
+    border-radius:12% 12% 70% 100% / 2% 72% 100% 100%  ;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    top: 142px;
+    left: 105px;
+    z-index: 400;
+}
+
+.lt1{
+    position: absolute;
+    top: 99px;
+    left: 21px;
+    width: 45px;
+    height: 55px;
+    background-color: white;
+    border-radius: 37% 0% 52% 51% / 46% 10% 70% 55% ;
+}
+.lt2{
+   position: absolute;
+    top: 89.9px;
+    left: 24px;
+    width: 58px;
+    height: 50px;
+    background-color: white;
+    border-radius:50%;
+    z-index: 399;
+}
+
+.lt3{
+    position: absolute;
+    border-radius:0% 100% 0% 100% / 0% 100% 0% 100% ;
+    width:50px;
+    height:50px;
+    background-color: white;
+    top:90px ;
+    left: 55px;
+}
+.lt4{
+    position: absolute;
+    border-radius: 79% 21% 75% 25% / 0% 100% 0% 100% ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    top: 127px;
+    left: 76px;
+    z-index:1;
+}
+
+.lt5{
+    position:absolute;
+    border-radius:85% 15% 38% 62% / 0% 100% 0% 100%  ;
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    top:150.5px ;
+    left:79px;
+}
+
+.lt6{
+    position:absolute;
+    border-radius:0% 100% 1% 99% / 100% 100% 0% 0%  ;    
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    top: 154px;
+    left: 95.9px;
+}
+
+                                /*right tomoe*/
+
+.large-tomoe2{
+    transform: rotate(245deg);
+    position: absolute;
+    left: 60px;
+    top: 240px;
+    z-index: 998;
+}
+
+.rtc{
+    position: absolute;
+    border-radius: 49% 51% 47% 53% / 100% 100% 0% 0% ;
+    width: 40px;
+    height: 47px;
+    top: 112px;
+    left: 40px;
+    background-color: black;
+    z-index: 403;
+}
+.rtc2{
+    position: absolute;
+    border-radius:9% 0% 0% 100% / 2% 72% 100% 100%  ;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    top: 142px;
+    left: 105px;
+    z-index: 402;
+}
+
+.rt1{
+    position: absolute;
+    top: 99px;
+    left: 21px;
+    width: 45px;
+    height: 55px;
+    background-color: white;
+    border-radius: 37% 0% 52% 51% / 46% 10% 70% 55% ;
+}
+.rt2{
+   position: absolute;
+    top: 89.9px;
+    left: 24px;
+    width: 58px;
+    height: 50px;
+    background-color: white;
+    border-radius:50%;
+}
+
+.rt3{
+    position: absolute;
+    border-radius:0% 100% 0% 100% / 0% 100% 0% 100% ;
+    width:50px;
+    height:50px;
+    background-color: white;
+    top:90px ;
+    left: 55px;
+}
+.rt4{
+    position: absolute;
+    border-radius: 79% 21% 75% 25% / 0% 100% 0% 100% ;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    top: 127px;
+    left: 76px;
+    z-index:1;
+}
+
+.rt5{
+    position:absolute;
+    border-radius:85% 15% 38% 62% / 0% 100% 0% 100%  ;
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    top:150.5px ;
+    left:79px;
+}
+
+.rt6{
+    position:absolute;
+    border-radius:0% 100% 1% 99% / 100% 100% 0% 0%  ;    
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    top: 154px;
+    left: 95.9px;
+}
+
+/*top tomoe*/
+ 
+.large-tomoe3{
+    transform: rotate(130deg);
+    position: absolute;
+    left: 240px;
+    top:90px;
+
+    z-index: 999;
+ }
+.ttc{
+     position: absolute;
+     border-radius: 49% 51% 47% 53% / 100% 100% 0% 0% ;
+     width: 40px;
+     height: 47px;
+     top: 112px;
+     left: 40px;
+     background-color: black;
+     z-index: 401;
+ }
+ .ttc2{
+     position: absolute;
+     border-radius:9% 100% 100% 100% / 2% 72% 100% 100%  ;
+     background-color: black;
+     width: 40px;
+     height: 40px;
+     top: 142px;
+     left: 105px;
+     z-index: 398;
+ }
+ 
+ .tt1{
+     position: absolute;
+     top: 99px;
+     left: 21px;
+     width: 45px;
+     height: 55px;
+     background-color: white;
+     border-radius: 37% 0% 52% 51% / 46% 10% 70% 55% ;
+ }
+ .tt2{
+    position: absolute;
+     top: 89.9px;
+     left: 24px;
+     width: 58px;
+     height: 50px;
+     background-color: white;
+     border-radius:50%;
+ }
+ 
+ .tt3{
+     position: absolute;
+     border-radius:0% 100% 0% 100% / 0% 100% 0% 100% ;
+     width:50px;
+     height:50px;
+     background-color: white;
+     top:90px ;
+     left: 55px;
+ }
+ .tt4{
+     position: absolute;
+     border-radius: 79% 21% 75% 25% / 0% 100% 0% 100% ;
+     width: 30px;
+     height: 30px;
+     background-color: white;
+     top: 127px;
+     left: 76px;
+     z-index:1;
+ }
+ 
+ .tt5{
+     position:absolute;
+     border-radius:85% 15% 38% 62% / 0% 100% 0% 100%  ;
+     width: 40px;
+     height: 30px;
+     background-color: white;
+     top:150.5px ;
+     left:79px;
+ }
+ 
+ .tt6{
+     position:absolute;
+     border-radius:0% 100% 1% 99% / 100% 100% 0% 0%  ;    
+     width: 25px;
+     height: 25px;
+     background-color: white;
+     top: 154px;
+     left: 95.9px;
+ }
+
+ /*little tomoe*/
+
+ .st1 {
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    left: 100px;
+    z-index: 1000;
+    width: 10px;
+    height: 10px;
+    border-radius: 0% 100% 13% 87% / 0% 86% 14% 100% ;
+ }
+ .st2 {
+    position: absolute;
+    background-color: white;
+    top: 120px;
+    left: 165px;
+    z-index: 1000;
+    width: 10px;
+    height: 10px;
+    border-radius: 0% 100% 13% 87% / 0% 86% 14% 100% ;
+    transform: rotate(120deg);
+ }
+ 
+ .st3 {
+    position: absolute;
+    background-color: white;
+    top: 150px;
+    left: 55px;
+    z-index: 1000;
+    width: 10px;
+    height: 10px;
+    border-radius: 0% 100% 13% 87% / 0% 86% 14% 100% ;
+    transform: rotate(225deg);
+ }
+
+ .st4{
+    position: absolute;
+    background-color: white;
+    top: 30px;
+    left: 80px;
+    z-index: 1000;
+    width: 10px;
+    height: 10px;
+    border-radius: 0% 100% 13% 87% / 0% 86% 14% 100% ;
+    transform: rotate(345deg);
+ }
